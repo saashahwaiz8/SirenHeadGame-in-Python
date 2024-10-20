@@ -17,7 +17,7 @@ class Ground(Entity):
         super().__init__(
             model='plane',
             collider='box',
-            scale=(1000, 1, 1000),  # Scale the plane
+            scale=(100000, 1, 100000),  # Scale the plane
             texture='grass'
         )
         
